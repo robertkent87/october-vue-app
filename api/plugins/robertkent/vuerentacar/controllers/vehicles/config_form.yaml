@@ -1,0 +1,10 @@
+name: Vehicles
+form: $/robertkent/vuerentacar/models/vehicle/fields.yaml
+modelClass: RobertKent\Vuerentacar\Models\Vehicle
+defaultRedirect: robertkent/vuerentacar/vehicles
+create:
+    redirect: 'robertkent/vuerentacar/vehicles/update/:id'
+    redirectClose: robertkent/vuerentacar/vehicles
+update:
+    redirect: robertkent/vuerentacar/vehicles
+    redirectClose: robertkent/vuerentacar/vehicles

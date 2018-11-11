@@ -1,0 +1,11 @@
+plugin:
+    name: 'robertkent.vuerentacar::lang.plugin.name'
+    description: 'robertkent.vuerentacar::lang.plugin.description'
+    author: 'Robert Kent'
+    icon: oc-icon-car
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Vehicles
+        url: robertkent/vuerentacar/vehicles
+        icon: icon-car
